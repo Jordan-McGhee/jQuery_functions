@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="main.js"> </script>
+
+</head>
+<body>
+    <header>
+        <h1>JQuery Practice</h1>
+    </header>
+
+    <div id="wrapper">
+        <div class="divided">
+            <a href="#" class="button" id="addClassButton">Click me!</a>
+            <div class="divided-b">
+                <h1>addClass</h1>
+                <p id="first-p">Click the button to add the class "red" to this paragraph.</p>
+            </div>
+        </div>
+
+        <div class="divided">
+            <a href="#" class="button" id="removeClassButton">Click me!</a>
+            <div class="divided-b">
+                <h1>removeClass</h1>
+                <p id="second-p" class="red">Click the button to remove the class "red" to this paragraph.</p>
+            </div>
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="append-button">Click me!</a>
+            <div class="divided-b" id="append-div">
+                <h1>append</h1>
+                <p>Click the button to append a new paragraph!</p>
+            </div>
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="img-button">Click me!</a>
+            <div class="divided-b">
+                <h1>slideToggle</h1>
+                <p>Click the button to slidetoggle the (hidden) image!</p>
+            </div>
+            <img src="imgs/2.png" alt="Holly" id="holly-one" style="display: none">
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="fade-in-button">Click me!</a>
+            <div class="divided-b">
+                <h1>fadeIn</h1>
+                <p>Click the button to fade in the (hidden) image!</p>
+            </div>
+            <img src="imgs/2.png" alt="Holly" id="holly-two" style="display: none">
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="fade-out-button">Click me!</a>
+            <div class="divided-b">
+                <h1>fadeOut</h1>
+                <p>Click the button to fade out the image!</p>
+            </div>
+            <img src="imgs/2.png" alt="Holly" id="holly-three">
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="toggle-button">Click me!</a>
+            <div class="divided-b">
+                <h1>toggle</h1>
+                <p>Click the image!</p>
+            </div>
+            <img src="imgs/2.png" alt="Holly" id="toggle-img">
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="hide-button">Click me!</a>
+            <div class="divided-b">
+                <h1>hide</h1>
+                <p id="hide-me">Click the button to hide this paragraph!</p>
+            </div>
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="show-button">Click me!</a>
+            <div class="divided-b">
+                <h1>show</h1>
+                <p>Click the button to show the hidden paragraph!</p>
+                <p id="show-me" style="display: none;">I was hiding!</p>
+            </div>
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="html-button">Click me!</a>
+            <div class="divided-b">
+                <h1 id="h1">HTML</h1>
+                <p>Click the button to change the title of this section!</p>
+            </div>
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="before-button">Click me!</a>
+            <div class="divided-b">
+                <h1>Before</h1>
+                <p id="before-p">Click the button to add a second headline before this paragraph!</p>
+            </div>
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="after-button">Click me!</a>
+            <div class="divided-b">
+                <h1>After</h1>
+                <p id="after-p">Click the button to add a headline after this paragraph!</p>
+            </div>
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="attr-button">Click me!</a>
+            <div class="divided-b">
+                <h1 id="attr-h1">Attr</h1>
+                <p id="attr-p">Click the button to give this paragraph an attribute that will hide it!</p>
+            </div>
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="val-button">Click me!</a>
+            <div class="divided-b">
+                <h1>Val</h1>
+                <p>Click the button to autofill the email below!</p>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" pattern="[A-Za-z0-9_]*@.*">
+            </div>
+        </div>
+
+        <div class="divided">
+            <a href="#"  class="button" id="text-button">Click me!</a>
+            <div class="divided-b">
+                <h1>Text</h1>
+                <p id="text-p">Click the button to change the text in this paragraph!</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
